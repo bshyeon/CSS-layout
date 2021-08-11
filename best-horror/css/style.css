@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "variables.css";
+
+@import "header.css";
+@import "main.css";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
