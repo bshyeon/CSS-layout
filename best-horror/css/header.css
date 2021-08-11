@@ -1,0 +1,32 @@
+header {
+  background-color: #f0f0f0;
+  width: 33%;
+  height: 100%;
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 72px;
+  position: fixed;
+  line-height: 1.2;
+}
+
+.header-title {
+  font-size: 65px;
+  width: 50%;
+  margin-top: 10vh;
+  text-transform: uppercase;
+}
+
+.header-bottom p:first-child {
+  font-size: 22px;
+  width: 60%;
+  margin-bottom: 25px;
+}
+
+.header-bottom p:last-child {
+  width: 72%;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: justify;
+}
