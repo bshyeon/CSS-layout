@@ -1,0 +1,38 @@
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 0 140px;
+  letter-spacing: 2.5px;
+}
+
+header > div {
+  cursor: pointer;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 600;
+  width: 17%;
+}
+
+.header-link span:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.header-link span:first-child {
+  margin-right: 50px;
+}
+
+.journal {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoppingBag i {
+  margin-right: 5px;
+}
