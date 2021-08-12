@@ -1,15 +1,18 @@
-header {
-  height: 20vh;
+.header-section {
+  width: 100%;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   font-size: 12px;
-  margin: 0 140px;
+  padding: 0 140px;
   letter-spacing: 2.5px;
+  position: fixed;
 }
 
-header > div {
+.header-section > div,
+.header-section li {
   cursor: pointer;
 }
 
@@ -19,20 +22,18 @@ header > div {
   width: 17%;
 }
 
-.header-link span:hover {
-  color: rgba(0, 0, 0, 0.5);
+.header-section nav ul {
+  display: flex;
 }
 
-.header-link span:first-child {
+.header-nav li:first-child {
   margin-right: 50px;
 }
 
-.journal {
-  width: 10%;
-  display: flex;
-  justify-content: space-between;
+.header-nav li:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.shoppingBag i {
-  margin-right: 5px;
+.journal li:first-child {
+  margin-right: 35px;
 }
