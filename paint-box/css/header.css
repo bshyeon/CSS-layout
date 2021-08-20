@@ -10,6 +10,7 @@
   padding: 0 140px;
   letter-spacing: 2.5px;
   position: fixed;
+  z-index: 1;
 }
 
 .header-section > div,
