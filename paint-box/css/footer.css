@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 200px;
+  height: 100%;
+  background-color: var(--background-color);
+  text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+}
+
+.footer-list {
+  width: 100%;
+  height: 100%;
+  margin: 60px 0;
+  text-align: center;
+}
+
+.footer-list__title {
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.footer-list li {
+  margin-bottom: 12px;
+}
+
+.footer-division {
+  margin: 60px 0;
+  border-right: 1px solid black;
+}
