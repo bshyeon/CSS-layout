@@ -174,3 +174,21 @@
 .readStory:hover i {
   transform: translate(5px);
 }
+
+/* main-article__item04 */
+
+.main-article__item04 > section {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.main-article__item04 > section img {
+  width: 310px;
+  height: 310px;
+}
+
+.main-article__item-image:hover {
+  opacity: 0.5;
+}
