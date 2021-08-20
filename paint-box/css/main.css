@@ -191,4 +191,5 @@
 
 .main-article__item-image:hover {
   opacity: 0.5;
+  transition: all 0.3s linear;
 }
