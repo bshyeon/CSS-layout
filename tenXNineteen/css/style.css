@@ -1,6 +1,8 @@
 @import "reset.css";
+@import "variables.css";
 
 * {
+  box-sizing: border-box;
   background-color: white;
 }
 
@@ -9,25 +11,78 @@ body {
 }
 
 .container {
-  background-color: #af7832;
+  background-color: var(--main-color);
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1.2fr 1fr;
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: 1fr 10fr 1fr;
   gap: 1px;
-}
-
-.menu {
-  grid-column: -2 / -1;
-  grid-row: 1 / 2;
+  font-size: 22px;
+  color: var(--main-color);
+  text-align: center;
 }
 
 .container-image {
   grid-column: 2 / -2;
   grid-row: 2 / -2;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
 }
 
-.marquee {
-  grid-column: 2/ -2;
-  grid-row: -1 / -2;
+.number__row {
+  background-color: var(--main-color);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1px;
+}
+
+.number__row div,
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu:hover,
+.number:hover {
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.scroll__text {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll__text span {
+  padding-left: 100%;
+  display: inline-block;
+  -webkit-animation: marquee 10s linear infinite;
+  animation: marquee 10s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  from {
+    transform: translate(0%);
+  }
+  99%,
+  to {
+    transform: translate(-100%);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translate(0%);
+  }
+  99%,
+  to {
+    transform: translate(-100%);
+  }
 }
