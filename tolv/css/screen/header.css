@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 110px;
+}
+
+.header__column {
+  width: 33%;
+}
+
+.header__column i {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+ul {
+  display: flex;
+}
+
+.header__list {
+  margin-right: 35px;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+}
