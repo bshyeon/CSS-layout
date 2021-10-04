@@ -1,0 +1,33 @@
+footer {
+  margin-top: 100px;
+  padding: 30px 240px;
+  height: 250px;
+  background-color: var(--footer-color);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.footer__left div {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+}
+
+.footer__left-policy {
+  margin-top: 110px;
+}
+
+.footer__left-rights {
+  margin-top: 25px;
+}
+
+.footer__right {
+  display: flex;
+  justify-content: space-between;
+}
