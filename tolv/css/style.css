@@ -1,0 +1,6 @@
+@import "reset.css";
+@import "screen/header.css";
+
+body {
+  font-family: "Yaldevi", sans-serif;
+}
