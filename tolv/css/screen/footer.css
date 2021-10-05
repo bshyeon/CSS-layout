@@ -1,0 +1,32 @@
+footer {
+  height: 500px;
+  background-color: #535851;
+  padding: 100px 350px 0 200px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__container,
+.footer__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list li {
+  color: white;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.list__title {
+  color: #91948f;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.access {
+  margin-top: 40px;
+}
