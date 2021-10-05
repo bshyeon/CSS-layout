@@ -1,8 +1,11 @@
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 110px;
+  z-index: 1;
 }
 
 .header__column {
