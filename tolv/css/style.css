@@ -1,6 +1,14 @@
 @import "reset.css";
+@import "variables.css";
 @import "screen/header.css";
+@import "screen/main.css";
+@import "screen/footer.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Kanit", sans-serif;
+  color: var(--font-color);
 }
