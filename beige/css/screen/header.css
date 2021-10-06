@@ -1,0 +1,41 @@
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px 5px 20px;
+  background-color: white;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.category {
+  display: flex;
+  font-size: 22px;
+}
+
+.category__item {
+  margin: 5px;
+}
+
+.category__item span::before {
+  content: " ";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--color);
+  margin-right: 5px;
+}
+
+.header__icon {
+  font-size: 18px;
+}
+
+.header__icon i {
+  padding-right: 5px;
+}
