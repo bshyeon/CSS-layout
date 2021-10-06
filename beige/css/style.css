@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "screen/header.css";
+@import "screen/main.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
