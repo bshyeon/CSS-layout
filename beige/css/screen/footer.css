@@ -1,0 +1,22 @@
+footer {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer__container:nth-child(2) {
+  text-align: center;
+}
+
+.footer__container a {
+  color: black;
+  margin-top: 4px;
+  pointer-events: none;
+}
