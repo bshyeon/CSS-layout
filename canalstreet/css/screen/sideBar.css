@@ -1,0 +1,19 @@
+.sideBar {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  display: flex;
+}
+
+.sideBar__item {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  font-size: 26px;
+}
+
+.sideBar__item div {
+  transform: rotate(90deg);
+}
