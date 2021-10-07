@@ -1,7 +1,3 @@
-.home {
-  padding-right: 165px;
-}
-
 .main__title {
   padding: 260px 265px 130px 60px;
   font-size: 74px;
@@ -99,7 +95,7 @@
     rgba(255, 255, 255, 0) 0%
   );
   background-position: bottom;
-  background-size: 40px 2px;
+  background-size: 40px 1px;
   background-repeat: repeat-x;
   padding-bottom: 12px;
   margin: 0 60px;
@@ -114,4 +110,34 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.address-info {
+  display: flex;
+  padding: 0 60px;
+  margin-top: 130px;
+  justify-content: space-between;
+}
+
+.address {
+  width: 590px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 64px;
+  line-height: 80px;
+  border: 1px dashed black;
+}
+
+.address span {
+  width: 80%;
+}
+
+.map {
+  width: 590px;
+  height: 340px;
+  background-image: url("https://images.prismic.io/canalstreetmarket/74921c6bf0abf767666c52a6af3c001c58643587_group-11.jpg?auto=compress,format");
+  border: 1px dashed black;
 }
