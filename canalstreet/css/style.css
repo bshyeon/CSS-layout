@@ -1,4 +1,6 @@
 @import "reset.css";
+@import "screen/sideBar.css";
+@import "screen/main.css";
 
 * {
   box-sizing: border-box;
@@ -9,70 +11,19 @@ body {
   height: 1000vh;
 }
 
-.sideBar {
-  height: 100%;
-  position: fixed;
-  right: 0;
-  display: flex;
-}
-
-.sideBar__item {
-  width: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--background-color);
-  font-size: 26px;
-}
-
-.sideBar__item div {
-  transform: rotate(90deg);
-}
-
 .home {
   padding-right: 165px;
 }
 
-.main__title {
-  padding: 260px 265px 130px 60px;
-  font-size: 74px;
-  font-weight: 600;
-  line-height: 80px;
+button {
+  width: 160px;
+  height: 60px;
+  background-color: white;
+  font-size: 16px;
+  transition: all 0.3s ease;
 }
 
-.main__image img {
-  width: 100%;
-  height: 100vh;
-}
-
-.sub__title {
-  padding: 140px 600px 80px 60px;
-  font-size: 110px;
-  line-height: 140px;
-}
-
-.market-info__container {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 40px;
-}
-
-.market-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.market-info img {
-  width: 90%;
-  height: 500px;
-  margin-bottom: 30px;
-}
-
-.market-info span {
-  width: 90%;
-  font-weight: 600;
-  line-height: 25px;
-  word-spacing: 6px;
+button:hover {
+  background-color: black;
+  color: white;
 }
