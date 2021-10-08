@@ -1,1 +1,10 @@
 @import "reset.css";
+@import "screen/header.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
