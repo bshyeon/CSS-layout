@@ -1,0 +1,48 @@
+.main__image {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main__image img {
+  transition: all 0.3s ease;
+}
+
+.main__image img:hover {
+  opacity: 0.5;
+}
+
+.product h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 130px 0 60px 0;
+}
+
+.clothes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+}
+
+.clothes-info {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.clothes-info .item {
+  margin-bottom: 10px;
+}
+
+.newArrivals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.newArrivals span {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 150px 0;
+}
